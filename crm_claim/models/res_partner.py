@@ -2,7 +2,11 @@
 # Copyright 2017 Tecnativa - Vicent Cubells
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
+import logging
+
 from odoo import api, fields, models
+
+_logger = logging.getLogger(__name__)
 
 
 class ResPartner(models.Model):
